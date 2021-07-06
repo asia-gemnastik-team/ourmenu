@@ -121,6 +121,9 @@
                         <li class="has-submenu">
                             <a href="<?= base_url('product'); ?>"><i class="icon-book-open"></i>Product</a>
                         </li>
+                        <li class="has-submenu">
+                            <a href="<?= base_url('product_kategori'); ?>"><i class="icon-book-open"></i>Kategori Product</a>
+                        </li>
 
                     </ul>
                     <!-- End navigation menu -->
