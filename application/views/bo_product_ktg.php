@@ -8,7 +8,7 @@
                     <li class="breadcrumb-item active">Product</li>
                 </ol>
             </div>
-            <h4 class="page-title">Product</h4>
+            <h4 class="page-title">Kategori Product</h4>
         </div>
     </div>
 </div>
@@ -26,7 +26,7 @@
     <div class="col-12">
          <div class="card-box table-responsive">
             <button class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Tambah</button>
-            <h4 class="header-title">Kategori Product</h4>
+            <h4 class="header-title">Kategori Product</h4><br>
             <p class="text-muted">
             </p> 
              <table id="responsive-datatable" class="table table-striped mb-0" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
@@ -34,9 +34,7 @@
                 <tr>
                     <th width="150px">Aksi</th>
                     <th>Nama</th>
-                    <th>Harga Jual</th>
-                    <th>Kategori Product</th>
-                    <th>Stock</th>
+                    <th>Jumlah Product</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -45,10 +43,24 @@
                             <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
                             <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
                         </td>
-                        <td><a href="#">Kentang Goreng</a></td>
-                        <td>Rp. 15.0000</td>
+                        <td>Makanan</td>
+                        <td>41</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td>Minuman</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
                         <td>Cemilan</td>
-                        <td>Ada</td>
+                        <td>10</td>
                     </tr>
                 </tbody>
             </table> 
