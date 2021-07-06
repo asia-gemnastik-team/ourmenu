@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -52,5 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Fo_home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+// Routing web
 $route['login'] = 'Bo_login';
 $route['dashboard'] = 'Bo_dashboard';
