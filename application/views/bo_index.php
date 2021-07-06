@@ -19,6 +19,7 @@
 
     <script src="<?= base_url('assets/js/modernizr.min.js'); ?>"></script>
 
+
 </head>
 
 <body>
@@ -62,146 +63,8 @@
                         </li>
                         <li class="dropdown notification-list hide-phone">
                             <a class="nav-link dropdown-toggle waves-effect nav-user" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <i class="mdi mdi-earth"></i> English <i class="mdi mdi-chevron-down"></i>
+                                <i class="mdi mdi-calendar"></i> / <i class="mdi mdi-clock"></i> <span id="date_template"></span> <span id="clock_template"></span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
-                                    Spanish
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
-                                    Italian
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
-                                    French
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item">
-                                    Russian
-                                </a>
-
-                            </div>
-                        </li>
-
-                        <li class="dropdown notification-list">
-                            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <i class="fi-bell noti-icon"></i>
-                                <span class="badge badge-danger badge-pill noti-icon-badge">4</span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg">
-
-                                <!-- item-->
-                                <div class="dropdown-item noti-title">
-                                    <h6 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>Clear All</small></a> </span>Notification</h6>
-                                </div>
-
-                                <div class="slimscroll" style="max-height: 230px;">
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i></div>
-                                        <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">1 min ago</small></p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-info"><i class="mdi mdi-account-plus"></i></div>
-                                        <p class="notify-details">New user registered.<small class="text-muted">5 hours ago</small></p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-danger"><i class="mdi mdi-heart"></i></div>
-                                        <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">3 days ago</small></p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-warning"><i class="mdi mdi-comment-account-outline"></i></div>
-                                        <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">4 days ago</small></p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-purple"><i class="mdi mdi-account-plus"></i></div>
-                                        <p class="notify-details">New user registered.<small class="text-muted">7 days ago</small></p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon bg-custom"><i class="mdi mdi-heart"></i></div>
-                                        <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">13 days ago</small></p>
-                                    </a>
-                                </div>
-
-                                <!-- All-->
-                                <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
-                                    View all <i class="fi-arrow-right"></i>
-                                </a>
-
-                            </div>
-                        </li>
-
-                        <li class="dropdown notification-list">
-                            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                <i class="fi-speech-bubble noti-icon"></i>
-                                <span class="badge badge-dark badge-pill noti-icon-badge">6</span>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg">
-
-                                <!-- item-->
-                                <div class="dropdown-item noti-title">
-                                    <h6 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>Clear All</small></a> </span>Chat</h6>
-                                </div>
-
-                                <div class="slimscroll" style="max-height: 230px;">
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="<?= base_url('assets/images/users/avatar-2.jpg'); ?>" class="img-fluid rounded-circle" alt="" /> </div>
-                                        <p class="notify-details">Cristina Pride</p>
-                                        <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="<?= base_url('assets/images/users/avatar-3.jpg'); ?>" class="img-fluid rounded-circle" alt="" /> </div>
-                                        <p class="notify-details">Sam Garret</p>
-                                        <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="<?= base_url('assets/images/users/avatar-4.jpg'); ?>" class="img-fluid rounded-circle" alt="" /> </div>
-                                        <p class="notify-details">Karen Robinson</p>
-                                        <p class="text-muted font-13 mb-0 user-msg">Wow that's great</p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="<?= base_url('assets/images/users/avatar-5.jpg'); ?>" class="img-fluid rounded-circle" alt="" /> </div>
-                                        <p class="notify-details">Sherry Marshall</p>
-                                        <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
-                                    </a>
-
-                                    <!-- item-->
-                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="<?= base_url('assets/images/users/avatar-6.jpg'); ?>" class="img-fluid rounded-circle" alt="" /> </div>
-                                        <p class="notify-details">Shawn Millard</p>
-                                        <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
-                                    </a>
-                                </div>
-
-                                <!-- All-->
-                                <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
-                                    View all <i class="fi-arrow-right"></i>
-                                </a>
-
-                            </div>
                         </li>
 
                         <li class="dropdown notification-list">
@@ -211,27 +74,12 @@
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
                                 <!-- item-->
                                 <div class="dropdown-item noti-title">
-                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                    <h6 class="text-overflow m-0">Hallo</h6>
                                 </div>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
                                     <i class="fi-head"></i> <span>My Account</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fi-cog"></i> <span>Settings</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fi-help"></i> <span>Support</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="fi-lock"></i> <span>Lock Screen</span>
                                 </a>
 
                                 <!-- item-->
@@ -297,28 +145,52 @@
     <script src="<?= base_url('assets/js/waves.js'); ?>"></script>
     <script src="<?= base_url('assets/js/jquery.slimscroll.js'); ?>"></script>
 
-    <!-- Flot chart -->
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.time.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.tooltip.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.resize.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.pie.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.crosshair.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/curvedLines.js'); ?>"></script>
-    <script src="<?= base_url('assets/plugins/flot-chart/jquery.flot.axislabels.js'); ?>"></script>
-
-    <!-- KNOB JS -->
-    <!--[if IE]>
-        <script type="text/javascript" src="/assets/plugins/jquery-knob/excanvas.js"></script>
-        <![endif]-->
-    <script src="<?= base_url('assets/plugins/jquery-knob/jquery.knob.js'); ?>"></script>
-
-    <!-- Dashboard Init -->
-    <script src="<?= base_url('assets/pages/jquery.dashboard.init.js'); ?>"></script>
+    <!-- Chart JS -->
+    <script src="<?= base_url('assets/plugins/chart.js/chart.bundle.js'); ?>"></script>
+    <script src="<?= base_url('assets/assets/pages/jquery.chartjs.init.js'); ?>"></script>
 
     <!-- App js -->
     <script src="<?= base_url('assets/js/jquery.core.js'); ?>"></script>
     <script src="<?= base_url('assets/js/jquery.app.js'); ?>"></script>
+
+    <!-- Script For Date & Time -->
+    <script type="text/javascript">
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+
+        function startTime() {
+            var today = new Date();
+            var hr = today.getHours();
+            var min = today.getMinutes();
+            var sec = today.getSeconds();
+            ap = (hr < 12) ? "<span>AM</span>" : "<span>PM</span>";
+            //hr = (hr == 0) ? 12 : hr;
+            //hr = (hr > 12) ? hr - 12 : hr;
+            //Add a zero in front of numbers<10
+            //hr = checkTime(hr);
+            min = checkTime(min);
+            sec = checkTime(sec);
+            document.getElementById("clock_template").innerHTML = hr + ":" + min + ":" + sec;
+
+            var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+            var days = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+            var curWeekDay = days[today.getDay()];
+            var curDay = today.getDate();
+            var curMonth = months[today.getMonth()];
+            var curYear = today.getFullYear();
+            var date = curWeekDay + ", " + curDay + " " + curMonth + " " + curYear + " /";
+            document.getElementById("date_template").innerHTML = date;
+
+            var time = setTimeout(function() {
+                startTime()
+            }, 500);
+        }
+        startTime();
+    </script>
 
 </body>
 

@@ -1,254 +1,187 @@
-<!-- Page-Title -->
-<div class="row">
-    <div class="col-sm-12">
-        <div class="page-title-box">
-            <div class="btn-group float-right">
-                <ol class="breadcrumb hide-phone p-0 m-0">
-                    <li class="breadcrumb-item"><a href="#">Menu</a></li>
-                    <li class="breadcrumb-item active">Dashboard</li>
-                </ol>
-            </div>
-            <h4 class="page-title">Dashboard</h4>
-        </div>
-    </div>
-</div>
-<!-- end page title end breadcrumb -->
+ <!-- Chart JS -->
+ <script src="<?= base_url('assets/plugins/chart.js/chart.bundle.js'); ?>"></script>
+ <!-- Page-Title -->
+ <div class="row">
+     <div class="col-sm-12">
+         <div class="page-title-box">
+             <div class="btn-group float-right">
+                 <ol class="breadcrumb hide-phone p-0 m-0">
+                     <li class="breadcrumb-item"><a href="#">Menu</a></li>
+                     <li class="breadcrumb-item active">Dashboard</li>
+                 </ol>
+             </div>
+             <h4 class="page-title">Dashboard</h4>
+         </div>
+     </div>
+ </div>
+ <!-- end page title end breadcrumb -->
 
 
-<div class="row">
-    <div class="col-12">
-        <div class="card-box">
-            <h4 class="header-title mb-4">Overview</h4>
+ <div class="row">
+     <div class="col-12">
+         <div class="card-box">
+             <h4 class="header-title mb-4">Overview</h4>
 
-            <div class="row">
-                <div class="col-md-6  col-xl-3">
-                    <div class="card-box mb-0 widget-chart-two">
-                        <div class="float-right">
-                            <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-fgColor="#0acf97" value="37" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".1" />
-                        </div>
-                        <div class="widget-chart-two-content">
-                            <p class="text-muted mb-0 mt-2">Total Kunjungan</p>
-                            <h3 class="">$35,715</h3>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6  col-xl-3">
-                    <div class="card-box mb-0 widget-chart-two">
-                        <div class="float-right">
-                            <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-fgColor="#f9bc0b" value="92" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".1" />
-                        </div>
-                        <div class="widget-chart-two-content">
-                            <p class="text-muted mb-0 mt-2">Total Produk</p>
-                            <h3 class="">$97,511</h3>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6  col-xl-3">
-                    <div class="card-box mb-0 widget-chart-two">
-                        <div class="float-right">
-                            <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-fgColor="#f1556c" value="14" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".1" />
-                        </div>
-                        <div class="widget-chart-two-content">
-                            <p class="text-muted mb-0 mt-2">Total Penjualan</p>
-                            <h3 class="">$954</h3>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6  col-xl-3">
-                    <div class="card-box mb-0 widget-chart-two">
-                        <div class="float-right">
-                            <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-fgColor="#2d7bf4" value="60" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".1" />
-                        </div>
-                        <div class="widget-chart-two-content">
-                            <p class="text-muted mb-0 mt-2">Total Pesanan</p>
-                            <h3 class="">$32,540</h3>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- end row -->
-        </div>
-    </div>
-</div>
-<!-- end row -->
+             <div class="text-center mt-4 mb-4">
+                 <div class="row">
+                     <div class="col-md-6 col-xl-3">
+                         <div class="card-box widget-flat border-custom bg-custom text-white">
+                             <i class="fa fa-user-o"></i>
+                             <h3 class="m-b-10">100</h3>
+                             <p class="text-uppercase m-b-5 font-13 font-600">Total Kunjungan</p>
+                         </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                         <div class="card-box bg-primary widget-flat border-primary text-white">
+                             <i class="fi-archive"></i>
+                             <h3 class="m-b-10">32</h3>
+                             <p class="text-uppercase m-b-5 font-13 font-600">Total Produk</p>
+                         </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                         <div class="card-box widget-flat border-success bg-success text-white">
+                             <i class="fa fa-money"></i>
+                             <h3 class="m-b-10">Rp. 1,000,000</h3>
+                             <p class="text-uppercase m-b-5 font-13 font-600">Total Penjualan</p>
+                         </div>
+                     </div>
+                     <div class="col-md-6 col-xl-3">
+                         <div class="card-box bg-danger widget-flat border-danger text-white">
+                             <i class="fa fa-list-alt"></i>
+                             <h3 class="m-b-10">250</h3>
+                             <p class="text-uppercase m-b-5 font-13 font-600">Total Pesanan</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <!-- end row -->
 
 
 
-<div class="row">
-    <div class="col-xl-6">
-        <div class="card-box">
-            <h4 class="header-title">Pesanan Terlaris</h4>
+ <div class="row">
+     <div class="col-xl-6">
+         <div class="card-box">
+             <h4 class="header-title">Pesanan Terlaris</h4>
 
-            <div class="table-responsive">
-                <table class="table table-hover table-centered m-0">
+             <div class="table-responsive">
+                 <table class="table table-hover table-centered m-0">
 
-                    <thead>
-                        <tr>
-                            <th>Profile</th>
-                            <th>Name</th>
-                            <th>Currency</th>
-                            <th>Balance</th>
-                            <th>Reserved in orders</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <img src="<?= base_url('assets/images/users/avatar-2.jpg') ?>" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
-                            </td>
+                     <thead>
+                         <tr>
+                             <th>Nama Produk</th>
+                             <th>Kategori</th>
+                             <th>Harga</th>
+                             <th>Total Pesanan</th>
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                             <td>
+                                 <h5 class="m-0 font-weight-normal">Tonkotsu Ramen</h5>
+                             </td>
 
-                            <td>
-                                <h5 class="m-0 font-weight-normal">Tomaslau</h5>
-                                <p class="mb-0 text-muted"><small>Member Since 2017</small></p>
-                            </td>
+                             <td>
+                                 Makanan Utama
+                             </td>
 
-                            <td>
-                                <i class="mdi mdi-currency-btc text-primary"></i> BTC
-                            </td>
+                             <td>
+                                 Rp. 70,000
+                             </td>
 
-                            <td>
-                                0.00816117 BTC
-                            </td>
+                             <td>
+                                 150
+                             </td>
+                         </tr>
 
-                            <td>
-                                0.00097036 BTC
-                            </td>
+                         <tr>
 
-                            <td>
-                                <a href="#" class="btn btn-sm btn-custom"><i class="mdi mdi-plus"></i></a>
-                                <a href="#" class="btn btn-sm btn-danger"><i class="mdi mdi-minus"></i></a>
-                            </td>
-                        </tr>
+                             <td>
+                                 <h5 class="m-0 font-weight-normal">Nasi Goreng</h5>
+                             </td>
 
-                        <tr>
-                            <td>
-                                <img src="<?= base_url('assets/images/users/avatar-3.jpg') ?>" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
-                            </td>
+                             <td>
+                                 Makanan Utama
+                             </td>
 
-                            <td>
-                                <h5 class="m-0 font-weight-normal">Erwin E. Brown</h5>
-                                <p class="mb-0 text-muted"><small>Member Since 2017</small></p>
-                            </td>
+                             <td>
+                                 Rp. 25,000
+                             </td>
 
-                            <td>
-                                <i class="mdi mdi-currency-eth text-primary"></i> ETH
-                            </td>
+                             <td>
+                                 125
+                             </td>
+                         </tr>
+                         <tr>
 
-                            <td>
-                                3.16117008 ETH
-                            </td>
+                             <td>
+                                 <h5 class="m-0 font-weight-normal">Chicken Udon</h5>
+                             </td>
 
-                            <td>
-                                1.70360009 ETH
-                            </td>
+                             <td>
+                                 Makanan Utama
+                             </td>
 
-                            <td>
-                                <a href="#" class="btn btn-sm btn-custom"><i class="mdi mdi-plus"></i></a>
-                                <a href="#" class="btn btn-sm btn-danger"><i class="mdi mdi-minus"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="<?= base_url('assets/images/users/avatar-4.jpg') ?>" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
-                            </td>
+                             <td>
+                                 Rp. 60,000
+                             </td>
 
-                            <td>
-                                <h5 class="m-0 font-weight-normal">Margeret V. Ligon</h5>
-                                <p class="mb-0 text-muted"><small>Member Since 2017</small></p>
-                            </td>
+                             <td>
+                                 100
+                             </td>
+                         </tr>
+                         <tr>
 
-                            <td>
-                                <i class="mdi mdi-currency-eur text-primary"></i> EUR
-                            </td>
+                             <td>
+                                 <h5 class="m-0 font-weight-normal">Chicken Katsu Ramen</h5>
+                             </td>
 
-                            <td>
-                                25.08 EUR
-                            </td>
+                             <td>
+                                 Makanan Utama
+                             </td>
 
-                            <td>
-                                12.58 EUR
-                            </td>
+                             <td>
+                                 Rp. 60,000
+                             </td>
 
-                            <td>
-                                <a href="#" class="btn btn-sm btn-custom"><i class="mdi mdi-plus"></i></a>
-                                <a href="#" class="btn btn-sm btn-danger"><i class="mdi mdi-minus"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="<?= base_url('assets/images/users/avatar-5.jpg') ?>" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
-                            </td>
+                             <td>
+                                 75
+                             </td>
+                         </tr>
+                         <tr>
 
-                            <td>
-                                <h5 class="m-0 font-weight-normal">Jose D. Delacruz</h5>
-                                <p class="mb-0 text-muted"><small>Member Since 2017</small></p>
-                            </td>
+                             <td>
+                                 <h5 class="m-0 font-weight-normal">Pecel Lele</h5>
+                             </td>
 
-                            <td>
-                                <i class="mdi mdi-currency-cny text-primary"></i> CNY
-                            </td>
+                             <td>
+                                 Makanan Utama
+                             </td>
 
-                            <td>
-                                82.00 CNY
-                            </td>
+                             <td>
+                                 Rp. 15,000
+                             </td>
 
-                            <td>
-                                30.83 CNY
-                            </td>
+                             <td>
+                                 50
+                             </td>
+                         </tr>
 
-                            <td>
-                                <a href="#" class="btn btn-sm btn-custom"><i class="mdi mdi-plus"></i></a>
-                                <a href="#" class="btn btn-sm btn-danger"><i class="mdi mdi-minus"></i></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="<?= base_url('assets/images/users/avatar-6.jpg') ?>" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
-                            </td>
+                     </tbody>
+                 </table>
+             </div>
 
-                            <td>
-                                <h5 class="m-0 font-weight-normal">Luke J. Sain</h5>
-                                <p class="mb-0 text-muted"><small>Member Since 2017</small></p>
-                            </td>
+         </div>
+     </div>
 
-                            <td>
-                                <i class="mdi mdi-currency-btc text-primary"></i> BTC
-                            </td>
+     <div class="col-xl-6">
+         <div class="card-box">
+             <h4 class="header-title">Grafik Penjualan Tahun 2021</h4>
+             <canvas id="bar" height="350" class="mt-4"></canvas>
 
-                            <td>
-                                2.00816117 BTC
-                            </td>
-
-                            <td>
-                                1.00097036 BTC
-                            </td>
-
-                            <td>
-                                <a href="#" class="btn btn-sm btn-custom"><i class="mdi mdi-plus"></i></a>
-                                <a href="#" class="btn btn-sm btn-danger"><i class="mdi mdi-minus"></i></a>
-                            </td>
-                        </tr>
-
-                    </tbody>
-                </table>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-xl-6">
-        <div class="card-box">
-            <h4 class="header-title">Grafik Penjualan Juli 2021</h4>
-
-        </div>
-    </div>
-</div>
-<!-- end row -->
+         </div>
+     </div>
+ </div>
+ <!-- end row -->
