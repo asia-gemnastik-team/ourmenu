@@ -24,188 +24,186 @@
 
 <div class="row">
     <div class="col-12">
-         <div class="card-box">
+         <div class="card-box table-responsive">
             <button class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Tambah</button>
             <h4 class="header-title">Daftar Product</h4>
             <p class="text-muted">
                <i class="icon icon-danger"></i> Daftar product yang akan dicantumkan di E-Menu
-            </p>
-            <div class="table-responsive">
-                <table id="responsive-datatable" class="table table-striped mb-0" >
-                    <thead>
+            </p> 
+             <table id="responsive-datatable" class="table table-striped mb-0" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                <thead>
+                <tr>
+                    <th width="150px">Aksi</th>
+                    <th>Nama</th>
+                    <th>Harga Jual</th>
+                    <th>Kategori Product</th>
+                    <th>Stock</th>
+                </tr>
+                </thead>
+                <tbody>
                     <tr>
-                        <th width="150px">Aksi</th>
-                        <th>Nama</th>
-                        <th>Harga Jual</th>
-                        <th>Kategori Product</th>
-                        <th>Stock</th>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
                     </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
-                                <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
-                            </td>
-                            <td><a href="#">Kentang Goreng</a></td>
-                            <td>Rp. 15.0000</td>
-                            <td>Cemilan</td>
-                            <td>Ada</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-primary"><i class="fa fa-edit"></i></button>
+                        </td>
+                        <td><a href="#">Kentang Goreng</a></td>
+                        <td>Rp. 15.0000</td>
+                        <td>Cemilan</td>
+                        <td>Ada</td>
+                    </tr>
+                </tbody>
+            </table> 
         </div>
     </div>
 </div>
@@ -213,34 +211,7 @@
   
 <!-- end row -->
 <script type="text/javascript">
-   $(document).ready(function() {
-
-    // Default Datatable
-    $('#datatable').DataTable();
-
-    //Buttons examples
-    var table = $('#datatable-buttons').DataTable({
-        lengthChange: false,
-        buttons: ['copy', 'excel', 'pdf']
-    });
-
-    // Key Tables
-
-    $('#key-table').DataTable({
-        keys: true
-    });
-
-    // Responsive Datatable
-    $('#responsive-datatable').DataTable();
-
-    // Multi Selection Datatable
-    $('#selection-datatable').DataTable({
-        select: {
-            style: 'multi'
-        }
-    });
-
-    table.buttons().container()
-            .appendTo('#datatable-buttons_wrapper .col-md-6:eq(0)');
+   $(document).ready(function() { 
+    $('#responsive-datatable').DataTable(); 
 } );
 </script>
