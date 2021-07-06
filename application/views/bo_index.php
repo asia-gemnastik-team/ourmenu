@@ -19,7 +19,11 @@
 
     <script src="<?= base_url('assets/js/modernizr.min.js'); ?>"></script>
 
+    <!-- jQuery  -->
+    <script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
 
+    <!-- Chart JS -->
+    <script src="<?= base_url(); ?>assets/plugins/chart.js/chart.bundle.js"></script>
 </head>
 
 <body>
@@ -139,15 +143,10 @@
     <!-- End Footer -->
 
 
-    <!-- jQuery  -->
-    <script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
+
     <script src="<?= base_url('assets/js/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?= base_url('assets/js/waves.js'); ?>"></script>
     <script src="<?= base_url('assets/js/jquery.slimscroll.js'); ?>"></script>
-
-    <!-- Chart JS -->
-    <script src="<?= base_url('assets/plugins/chart.js/chart.bundle.js'); ?>"></script>
-    <script src="<?= base_url('assets/assets/pages/jquery.chartjs.init.js'); ?>"></script>
 
     <!-- App js -->
     <script src="<?= base_url('assets/js/jquery.core.js'); ?>"></script>

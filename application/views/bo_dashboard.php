@@ -183,5 +183,68 @@
 
          </div>
      </div>
+     <!-- Config For ChartJs -->
+     <script>
+         ! function($) {
+             "use strict";
+
+             var ChartJs = function() {};
+
+             ChartJs.prototype.respChart = function(selector, type, data, options) {
+                     // get selector by context
+                     var ctx = selector.get(0).getContext("2d");
+                     // pointing parent container to make chart js inherit its width
+                     var container = $(selector).parent();
+
+                     // enable resizing matter
+                     $(window).resize(generateChart);
+
+                     // this function produce the responsive Chart JS
+                     function generateChart() {
+                         // make chart width fit with its container
+                         var ww = selector.attr('width', $(container).width());
+                         switch (type) {
+                             case 'Bar':
+                                 new Chart(ctx, {
+                                     type: 'bar',
+                                     data: data,
+                                     options: options
+                                 });
+                                 break;
+                         }
+                         // Initiate new chart or Redraw
+
+                     };
+                     // run function - render chart at first load
+                     generateChart();
+                 },
+
+                 //init
+                 ChartJs.prototype.init = function() {
+                     //barchart
+                     var barChart = {
+                         labels: ["Januari", "Februari", "Maaret", "April", "Mei", "Juni", "Juli"],
+                         datasets: [{
+                             label: "Total Penjualan",
+                             backgroundColor: "rgba(2, 192, 206, 0.3)",
+                             borderColor: "#02c0ce",
+                             borderWidth: 2,
+                             hoverBackgroundColor: "rgba(2, 192, 206, 0.7)",
+                             hoverBorderColor: "#02c0ce",
+                             data: [1250000, 1500000, 2000000, 2500000, 3500000, 1000000, 4000000, 0]
+                         }]
+                     };
+                     this.respChart($("#bar"), 'Bar', barChart);
+
+                 },
+                 $.ChartJs = new ChartJs, $.ChartJs.Constructor = ChartJs
+
+         }(window.jQuery),
+
+         //initializing
+         function($) {
+             "use strict";
+             $.ChartJs.init()
+         }(window.jQuery);
+     </script>
  </div>
- <!-- end row -->
