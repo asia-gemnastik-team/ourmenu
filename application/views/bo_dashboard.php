@@ -179,8 +179,7 @@
      <div class="col-xl-6">
          <div class="card-box">
              <h4 class="header-title">Grafik Penjualan Tahun 2021</h4>
-             <canvas id="bar" height="350" class="mt-4"></canvas>
-
+               <canvas id="bar" height="350" class="mt-4"></canvas>
          </div>
      </div>
      <!-- Config For ChartJs -->

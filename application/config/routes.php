@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 // Routing web
 $route['login'] = 'Bo_login';
 $route['dashboard'] = 'Bo_dashboard';
+$route['product'] = 'Bo_product';

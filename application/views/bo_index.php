@@ -15,9 +15,9 @@
     <!-- App css -->
     <link href="<?= base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" type="text/css" />
     <link href="<?= base_url('assets/css/icons.css'); ?>" rel="stylesheet" type="text/css" />
-    <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" type="text/css" />
-
+    <link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" type="text/css" /> 
     <script src="<?= base_url('assets/js/modernizr.min.js'); ?>"></script>
+    <link href="<?php echo base_url()?>assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery  -->
     <script src="<?= base_url('assets/js/jquery.min.js'); ?>"></script>
@@ -112,6 +112,9 @@
                         <li class="has-submenu">
                             <a href="<?= base_url('dashboard'); ?>"><i class="icon-speedometer"></i>Dashboard</a>
                         </li>
+                        <li class="has-submenu">
+                            <a href="<?= base_url('product'); ?>"><i class="icon-book-open"></i>Product</a>
+                        </li>
 
                     </ul>
                     <!-- End navigation menu -->
@@ -150,9 +153,17 @@
 
     <!-- App js -->
     <script src="<?= base_url('assets/js/jquery.core.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/jquery.app.js'); ?>"></script>
-
+    <script src="<?= base_url('assets/js/jquery.app.js'); ?>"></script> 
+    <script src="<?php echo base_url()?>assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.bootstrap4.min.js"></script> 
+    <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.buttons.min.js"></script>
+    <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.keyTable.min.js"></script> 
+    <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.responsive.min.js"></script>
+    <script src="<?php echo base_url()?>assets/plugins/datatables/responsive.bootstrap4.min.js"></script> 
+    <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.select.min.js"></script>
     <!-- Script For Date & Time -->
+
+
     <script type="text/javascript">
         function checkTime(i) {
             if (i < 10) {
