@@ -100,7 +100,7 @@ $autoload['helper'] = array('url', 'file');
 |
 | NOTE: This item is intended for use ONLY if you have created custom
 | config files.  Otherwise, leave it blank.
-|
+|WWWW
 */
 $autoload['config'] = array();
 
