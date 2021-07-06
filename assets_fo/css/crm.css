@@ -35,7 +35,7 @@ theme.
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-prev:hover,
 .crm-screen-section .crm-screen-slider-wrap .owl-nav .owl-prev:hover {
   color: #fff;
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-next, .crm-screen-section .crm-screen-slider-wrap .owl-nav .owl-next {
   right: 10px;
@@ -55,7 +55,7 @@ theme.
   margin: 0 auto;
   position: absolute;
   border-radius: 100%;
-  background-color: #fff9f1;
+  background-color: #f1fff4;
   animation: zoomIn 0.9s both 0.5s;
 }
 
@@ -127,7 +127,7 @@ theme.
 .crm-home {
   margin: 0;
   padding: 0;
-  color: #2647c8;
+  color: #03795a;
   font-size: 16px;
   overflow-x: hidden;
   line-height: 1.625;
@@ -271,7 +271,7 @@ select:visited {
 .crm-section-title span {
   display: block;
   font-weight: 500;
-  color: #ff7f00;
+  color: #96c216;
   padding-bottom: 15px;
 }
 .crm-section-title h2 {
@@ -299,7 +299,7 @@ select:visited {
 }
 .crm-main-header .dropdown:after {
   top: -2px;
-  color: #2647c8;
+  color: #03795a;
   right: -14px;
   content: "+";
   font-size: 18px;
@@ -381,7 +381,7 @@ select:visited {
   margin: 0px 32px;
 }
 .crm-main-header .crm-main-navigation li a {
-  color: #2647c8;
+  color: #03795a;
   font-size: 14px;
   font-weight: 700;
   position: relative;
@@ -396,7 +396,7 @@ select:visited {
   height: 2px;
   margin: 0 auto;
   position: absolute;
-  background-color: #2647c8;
+  background-color: #03795a;
   transition: 0.5s all ease-in-out;
 }
 .crm-main-header .crm-main-navigation li:hover a:before {
@@ -406,7 +406,7 @@ select:visited {
   height: 60px;
   width: 195px;
   line-height: 60px;
-  border: 2px solid #e7d7c3;
+  border: 2px solid #5ac097;
   transition: 0.3s all ease-in-out;
 }
 .crm-main-header .crm-header-btn a {
@@ -417,8 +417,8 @@ select:visited {
 }
 .crm-main-header .crm-header-btn:hover {
   color: #fff;
-  background-color: #000;
-  border: 2px solid #000;
+  background-color: #03795a;
+  border: 2px solid #03795a;
 }
 
 .header-type-two .container {
@@ -434,7 +434,7 @@ select:visited {
   position: fixed;
   padding: 10px 0px;
   animation-duration: 0.7s;
-  background-color: #ff7f00;
+  background-color: #96c216;
   animation-fill-mode: both;
   animation-name: fadeInDown;
   animation-timing-function: ease;
@@ -519,13 +519,13 @@ select:visited {
   display: block;
   font-size: 18px;
   font-weight: 500;
-  color: #ff7f00;
+  color: #96c216;
   padding-bottom: 15px;
 }
 .crm-banner-section .crm-banner-content h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #2647c8;
+  color: #03795a;
   line-height: 1.208;
   padding-bottom: 20px;
 }
@@ -555,7 +555,7 @@ select:visited {
   width: 200px;
   font-weight: 600;
   position: absolute;
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 
 .crm-brand-logo-wrap {
@@ -646,7 +646,7 @@ select:visited {
 /*----------------------------------------------------*/
 .crm-server-section {
   padding: 100px 0px;
-  background-color: #fff9f1;
+  background-color: #f1fff4;
 }
 .crm-server-section .crm-section-title {
   margin: 0 auto;
@@ -677,7 +677,7 @@ select:visited {
   transition: 0.3s all ease-in-out;
 }
 .crm-server-list-item li a .crm-server-code {
-  color: #ff7f00;
+  color: #96c216;
   margin-right: 40px;
 }
 .crm-server-list-item li a .crm-server-text {
@@ -694,7 +694,7 @@ select:visited {
   height: 0%;
   position: absolute;
   transition: 0.4s all ease-in-out;
-  background: linear-gradient(90deg, #ff7300 0%, #ffc300 100%);
+  background: linear-gradient(90deg, rgba(179,214,112,1) 0%, rgba(121,199,148,1) 47%, rgba(108,195,156,1) 100%);
 }
 .crm-server-list-item li a:hover {
   color: #fff;
@@ -735,7 +735,7 @@ select:visited {
   line-height: 120px;
   border-radius: 100%;
   margin-bottom: 25px;
-  background-color: #2647c8;
+  background-color: #03795a;
   transition: 0.3s all ease-in-out;
 }
 .crm-feature-innerbox .crm-feature-icon i {
@@ -754,13 +754,13 @@ select:visited {
   transition: 0.3s all ease-in-out;
 }
 .crm-feature-innerbox:hover {
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 .crm-feature-innerbox:hover .crm-feature-icon {
   background-color: #fff;
 }
 .crm-feature-innerbox:hover .crm-feature-icon i {
-  color: #2647c8;
+  color: #03795a;
 }
 .crm-feature-innerbox:hover .crm-feature-text h3, .crm-feature-innerbox:hover .crm-feature-text p {
   color: #fff;
@@ -796,7 +796,7 @@ select:visited {
 /*----------------------------------------------------*/
 .crm-screen-section {
   padding: 95px 0px 100px;
-  background-color: #fff9f1;
+  background-color: #f1fff4;
 }
 .crm-screen-section .crm-section-title {
   margin: 0 auto;
@@ -826,7 +826,7 @@ select:visited {
 
 .crm-call-to-action {
   padding: 25px 0px;
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 .crm-call-to-action .crm-call-action-text p {
   color: #fff;
@@ -847,7 +847,7 @@ select:visited {
   font-weight: 700;
   line-height: 50px;
   text-align: center;
-  background-color: #102fa5;
+  background-color: #96c216;
 }
 
 /*---------------------------------------------------- */
@@ -876,7 +876,7 @@ select:visited {
   font-weight: 700;
   position: relative;
   padding: 20px 40px;
-  background-color: #2647c8;
+  background-color: #03795a;
   transition: 0.3s all ease-in-out;
 }
 .crm-faq-ques-ans .crm-faq-header button:after {
@@ -888,7 +888,7 @@ select:visited {
   font-family: Flaticon;
 }
 .crm-faq-ques-ans .crm-faq-header button.collapsed {
-  color: #2647c8;
+  color: #03795a;
   background-color: #f6f8ff;
 }
 .crm-faq-ques-ans .crm-faq-header button.collapsed:after {
@@ -995,7 +995,7 @@ select:visited {
 .crm-testimonial-section .crm-testimonial-area .crm-testimonial-text .crm-testi-author span {
   font-size: 14px;
   font-weight: 700;
-  background: linear-gradient(90deg, #ff7300 0%, #ffc300 100%);
+  background: linear-gradient(90deg, rgba(179,214,112,1) 0%, rgba(121,199,148,1) 47%, rgba(108,195,156,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1004,7 +1004,7 @@ select:visited {
   top: 52%;
   z-index: 1;
   color: #fff;
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-prev:after,
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-next:after {
@@ -1017,7 +1017,7 @@ select:visited {
   position: absolute;
   transition: 0.4s all ease-in-out;
   transform: scale(0);
-  background: linear-gradient(90deg, #ff7300 0%, #ffc300 100%);
+  background: linear-gradient(90deg, rgba(179,214,112,1) 0%, rgba(121,199,148,1) 47%, rgba(108,195,156,1) 100%);
 }
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-prev:hover:after,
 .crm-testimonial-section .crm-testimonial-area .owl-nav .owl-next:hover:after {
@@ -1040,13 +1040,13 @@ select:visited {
   content: "";
   height: 75px;
   position: absolute;
-  background-color: #1332ad;
+  background-color: #04946e;
 }
 .crm-partner-section .crm-partner-wrapper {
   z-index: 5;
   padding: 60px;
   background-color: #fff;
-  border-top: 2px solid #2647c8;
+  border-top: 2px solid #03795a;
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.02);
 }
 .crm-partner-section .crm-partner-slide-area .owl-nav {
@@ -1144,7 +1144,7 @@ select:visited {
   right: 0;
   top: -36px;
   z-index: 5;
-  color: #2647c8;
+  color: #03795a;
   display: none;
   cursor: pointer;
   font-size: 30px;
@@ -1206,7 +1206,7 @@ select:visited {
 /*FooterMobile Menu area*/
 /*----------------------------------------------------*/
 .crm-footer-section {
-  background-color: #1332ad;
+  background-color: #04946e;
 }
 .crm-footer-section .crm-footer-wrapper {
   padding: 100px 0px;
@@ -1220,7 +1220,7 @@ select:visited {
   margin-bottom: 5px;
 }
 .crm-footer-section .crm-footer-widget {
-  color: #bdc4df;
+  color: #d9fbf2;
 }
 .crm-footer-section .crm-footer-widget .widget-title {
   font-size: 18px;
@@ -1259,7 +1259,7 @@ select:visited {
   text-align: center;
   position: relative;
   display: inline-block;
-  border: 2px solid #2b47b5;
+  border: 2px solid #09a97f;
   transition: 0.3s all ease-in-out;
 }
 .crm-footer-section .crm-footer-widget .crm-footer-social a:hover {
@@ -1277,7 +1277,7 @@ select:visited {
 
 .crm-footer-copyright {
   padding: 35px 0px 32px;
-  background-color: #2647c8;
+  background-color: #03795a;
 }
 .crm-footer-copyright .crm-footer-copyright-menu a {
   font-size: 16px;
@@ -1298,7 +1298,7 @@ select:visited {
   bottom: -17px;
   line-height: 60px;
   position: absolute;
-  background-color: #1332ad;
+  background-color: #04946e;
 }
 .crm-scrollup i {
   color: #fff;

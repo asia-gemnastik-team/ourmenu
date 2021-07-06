@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
-<!-- Mirrored from html.themexriver.com/Saasio/index-9.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 12:11:04 GMT -->
 <head>
     <meta charset="UTF-8">
     <title>SaaSio - CRM</title>
@@ -110,8 +109,8 @@
     <section id="crm-banner" class="crm-banner-section position-relative">
         <div class="crm-banner-shape position-absolute crm-b-shape1"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs1.png" alt=""></div>
         <div class="crm-banner-shape position-absolute crm-b-shape2"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs2.png" alt=""></div>
-        <div class="crm-banner-shape position-absolute crm-b-shape3"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs3.png" alt=""></div>
-        <div class="crm-banner-shape position-absolute crm-b-shape4"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs4.png" alt=""></div>
+        <div class="crm-banner-shape position-absolute crm-b-shape3"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs3.png?v=1.1" alt=""></div>
+        <div class="crm-banner-shape position-absolute crm-b-shape4"><img src="<?php echo base_url()?>assets_fo/img/crm/shape/bs4.png?v=1.2" alt=""></div>
         <div class="container">
             <div class="crm-banner-content crm-headline pera-content position-relative">
                 <span>Easy access data system</span>
@@ -745,5 +744,4 @@
     <script src="<?php echo base_url()?>assets_fo/js/crm.js"></script>
 </body>
 
-<!-- Mirrored from html.themexriver.com/Saasio/index-9.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 Jul 2021 12:11:19 GMT -->
 </html>       
