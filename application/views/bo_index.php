@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Highdmin - Responsive Bootstrap 4 Admin Dashboard</title>
+    <title>Dashboard - Ourmenu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
     <meta content="Coderthemes" name="author" />
@@ -119,19 +119,19 @@
                             <a href="<?= base_url('dashboard'); ?>"><i class="icon-speedometer"></i>Dashboard</a>
                         </li>
                         <li class="has-submenu">
-                            <a href="<?= base_url('profil'); ?>"><i class="icon-city"></i>Profil</a>
+                            <a href="<?= base_url('profil'); ?>"><i class="fa  fa-building-o"></i>Profil</a>
                         </li>
                         <li class="has-submenu">
-                            <a href="<?= base_url('transaksi'); ?>"><i class="icon-order"></i>Transaksi</a>
+                            <a href="<?= base_url('transaksi'); ?>"><i class="fa fa-shopping-basket"></i>Transaksi</a>
                         </li>
                         <li class="has-submenu">
-                            <a href="<?= base_url('product'); ?>"><i class="icon-book-open"></i>Product</a>
+                            <a href="<?= base_url('product'); ?>"><i class="icon-book-open"></i>Produk</a>
                         </li>
                         <li class="has-submenu">
-                            <a href="<?= base_url('product_kategori'); ?>"><i class="icon-list"></i>Kategori Product</a>
+                            <a href="<?= base_url('product_kategori'); ?>"><i class="icon-list"></i>Kategori Produk</a>
                         </li>
                         <li class="has-submenu">
-                            <a href="<?= base_url('meja'); ?>"><i class="icon-book-open"></i>Meja</a>
+                            <a href="<?= base_url('meja'); ?>"><i class="fa fa-flag"></i>Meja</a>
                         </li>
 
                     </ul>
@@ -179,10 +179,17 @@
     <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.responsive.min.js"></script>
     <script src="<?php echo base_url()?>assets/plugins/datatables/responsive.bootstrap4.min.js"></script> 
     <script src="<?php echo base_url()?>assets/plugins/datatables/dataTables.select.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.price_format.min.js"></script>
     <!-- Script For Date & Time -->
 
 
     <script type="text/javascript">
+
+        $(".uang").priceFormat({
+            prefix: 'Rp ',
+            centsSeparator: ',',
+        }); 
+
         function checkTime(i) {
             if (i < 10) {
                 i = "0" + i;
