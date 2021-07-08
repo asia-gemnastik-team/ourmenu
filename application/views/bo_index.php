@@ -119,10 +119,19 @@
                             <a href="<?= base_url('dashboard'); ?>"><i class="icon-speedometer"></i>Dashboard</a>
                         </li>
                         <li class="has-submenu">
+                            <a href="<?= base_url('profil'); ?>"><i class="icon-city"></i>Profil</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= base_url('transaksi'); ?>"><i class="icon-order"></i>Transaksi</a>
+                        </li>
+                        <li class="has-submenu">
                             <a href="<?= base_url('product'); ?>"><i class="icon-book-open"></i>Product</a>
                         </li>
                         <li class="has-submenu">
                             <a href="<?= base_url('product_kategori'); ?>"><i class="icon-list"></i>Kategori Product</a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="<?= base_url('meja'); ?>"><i class="icon-book-open"></i>Meja</a>
                         </li>
 
                     </ul>

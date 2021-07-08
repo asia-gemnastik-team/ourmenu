@@ -25,7 +25,7 @@
 <div class="row">
     <div class="col-12">
          <div class="card-box table-responsive">
-            <button class="btn btn-primary pull-right"><i class="fa fa-plus"></i> Tambah</button>
+            <button class="btn btn-primary pull-right"  data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> Tambah</button>
             <h4 class="header-title">Daftar Product</h4>
             <p class="text-muted">
                <i class="icon icon-danger"></i> Daftar product yang akan dicantumkan di E-Menu
@@ -208,7 +208,23 @@
     </div>
 </div>
 <!-- end row -->
-  
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="myModalLabel">Modal Heading</h4>
+            </div>
+            <div class="modal-body">
+                <h6>Tambah Product</h6>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-light waves-effect" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <!-- end row -->
 <script type="text/javascript">
    $(document).ready(function() { 
