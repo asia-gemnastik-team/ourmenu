@@ -58,3 +58,4 @@ $route['login'] = 'Bo_login';
 $route['dashboard'] = 'Bo_dashboard';
 $route['product'] = 'Bo_product';
 $route['product_kategori'] = 'Bo_product_ktg';
+$route['profil'] = 'Bo_profil';
